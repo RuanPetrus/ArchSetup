@@ -1,4 +1,4 @@
-
+#!/bin/sh
 
 ## Setting Options
 
@@ -8,6 +8,11 @@ name=$2
 
 ## Functions
 installpkg(){ pacman --noconfirm --needed -S "$1" >/dev/null 2>&1 ;}
+
+finalize(){ \
+	dialog --infobox "Preparing welcome message..." 4 50
+	dialog --title "All done!" --msgbox "Congrats! Provided there were no hidden errors, the script completed successfully and all the programs and configuration files should be in place.\\n\\nTo run the new graphical environment, log out and log back in as your new user, then run the command \"startx\" to start the graphical environment (it will start automatically in tty1).\\n\\n.t Luke" 12 80
+	}
 
 error() { printf "%s\n" "$1" >&2; exit 1; }
 
@@ -95,4 +100,4 @@ systembeepoff
 chsh -s /bin/zsh "$name" >/dev/null 2>&1
 sudo -u "$name" mkdir -p "/home/$name/.cache/zsh/"
 
-
+finalize
