@@ -24,7 +24,7 @@
 ,mpc,is a terminal interface for mpd.
 ,mpv,is the patrician's choice video player.
 ,man-db,lets you read man pages of programs.
-,ncmpcpp,a ncurses interface for music with multiple formats and a powerful tag editor.
+,ncmpcpp,Music player
 ,newsboat,is a terminal RSS client.
 ,firefox,is an elegant browser.
 ,ntfs-3g,allows accessing NTFS partitions.
@@ -38,7 +38,7 @@ A,sc-im,is an Excel-like terminal spreadsheet manager.
 ,zip,zip archives
 ,unzip,unzips zips.
 ,lynx,is a terminal browser.
-,youtube-dl,can download any YouTube video (or playlist or channel) when given the link.
+,youtube-dl,Dowload youtube stuff
 ,zathura,is a pdf viewer with vim-like bindings.
 ,zathura-pdf-mupdf,allows mupdf pdf compatibility in zathura.
 ,poppler,manipulates .pdfs and gives .pdf previews and other .pdf functions.
@@ -48,9 +48,9 @@ A,sc-im,is an Excel-like terminal spreadsheet manager.
 ,highlight,can highlight code output.
 A,simple-mtpfs,enables the mounting of cell phones.
 A,htop-vim-git,is a graphical and colorful system monitor.
-G,https://github.com/lukesmithxyz/dwm.git,is the window manager.
 ,moreutils,is a collection of useful unix tools.
 ,stow,is a dotfiles manager
+,dmenu,launch applications
 ,zsh,system shell
 A,zsh-completions-git,Completions plugin for shell
 G,https://github.com/RuanPetrus/dwm.git,Window manager
